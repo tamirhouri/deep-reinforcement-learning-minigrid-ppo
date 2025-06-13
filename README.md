@@ -2,18 +2,18 @@
 
 A comprehensive implementation of deep reinforcement learning algorithms (PPO and Dueling DQN) applied to MiniGrid multi-room navigation environments.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates the application of advanced reinforcement learning techniques to solve navigation tasks in partially observable grid-world environments. The agent must learn to navigate through multiple connected rooms to reach a goal, requiring exploration, memory, and strategic planning.
 
-## ✨ Features
+## Features
 
 - **Multiple RL Algorithms**: Implementation of Proximal Policy Optimization (PPO) and Dueling Deep Q-Network (DDQN)
 - **Progressive Difficulty**: Three environment sizes - Small (N2-S4), Medium (N4-S5), and Large (N6)
 - **Partial Observability**: Agents only see the current room, adding complexity to navigation
 - **Comprehensive Evaluation**: Statistical analysis and performance metrics
 
-## 🏗️ Architecture
+## Architecture
 
 ### Algorithms
 
@@ -33,7 +33,7 @@ This project demonstrates the application of advanced reinforcement learning tec
 - **MiniGrid-MultiRoom-N4-S5-v0**: Medium environment (4 rooms)
 - **MiniGrid-MultiRoom-N6-v0**: Large environment (6 rooms)
 
-## 📊 Results
+## Results
 
 Both algorithms successfully learn to navigate the MiniGrid environments:
 
@@ -47,7 +47,7 @@ Both algorithms successfully learn to navigate the MiniGrid environments:
 - Experience replay buffer (DQN)
 - GAE (Generalized Advantage Estimation) for PPO
 
-## 🔗 References
+## References
 
 - [MiniGrid Documentation](https://minigrid.farama.org/)
 - [Gymnasium](https://gymnasium.farama.org/)
